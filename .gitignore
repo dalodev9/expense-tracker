@@ -1,0 +1,144 @@
+# ============================================================
+# Operating System
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+
+# ============================================================
+# IDE / Editors
+# ============================================================
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# SQLite / Local Databases
+# ============================================================
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+
+# ============================================================
+# Go
+# ============================================================
+
+# Build output
+bin/
+dist/
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Coverage
+coverage.out
+coverage.html
+*.coverprofile
+
+
+# ============================================================
+# Flutter / Dart
+# ============================================================
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+build/
+
+# Android generated files
+android/.gradle/
+android/local.properties
+android/key.properties
+
+# iOS generated files
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# macOS generated files
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/Flutter/Generated.xcconfig
+
+# ============================================================
+# Laravel / PHP
+# ============================================================
+
+# Dependencies
+vendor/
+
+# Laravel environment
+.env
+.env.backup
+.phpunit.result.cache
+
+# Laravel storage
+storage/*.key
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+storage/logs/*
+
+# Laravel generated bootstrap files
+bootstrap/cache/*
+
+# Keep directory structure
+!storage/framework/cache/.gitignore
+!storage/framework/sessions/.gitignore
+!storage/framework/testing/.gitignore
+!storage/framework/views/.gitignore
+!storage/logs/.gitignore
+!bootstrap/cache/.gitignore
+
+
+# ============================================================
+# Node.js
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+.next/
+.nuxt/
+dist/
+
+
+# ============================================================
+# Temporary / Generated Files
+# ============================================================
+
+tmp/
+temp/
+*.tmp
+*.log
